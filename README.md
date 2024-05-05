@@ -1,16 +1,12 @@
+# EX-05 Implement Simple Hill Climbing Algorithm
+### Aim:
+Implement Simple Hill Climbing Algorithm and Generate a String by&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>
+Mutating a Single Character at each iteration.
+### Theory:
+Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator decide which direction to move in search space.
+Feedback is provided in terms of heuristic function.
 
-<h1>ExpNo 5 : Implement Simple Hill Climbing Algorithm</h1> 
-<h3>Name: DHANUMALYA.D</h3>
-<h3>Register Number: 212222230030</h3>
-<H3>Aim:</H3>
-<p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
-<h2> Theory: </h2>
-<p>Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator decide which direction to move in search space.
-Feedback is provided in terms of heuristic function
-</p>
-
-
-<h2>Algorithm:</h2>
+### Algorithm:
 <p>
 <ol>
  <li> Evaluate the initial state.If it is a goal state then return it and quit. Otherwise, continue with initial state as current state.</li> 
@@ -27,13 +23,14 @@ Feedback is provided in terms of heuristic function
 </li>
 </ol>
 </p>
+
 ### Steps Applied:
 Step-1: Generate Random String of the length equal to the given String.<BR>
 Step-2: Mutate the randomized string each character at a time.<BR>
 Step-3: Evaluate the fitness function or Heuristic Function.<BR>
 Step-4: Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.<BR>
 ### Program:
-```
+```Python
 import random
 import string
 def generate_random_solution(answer):
@@ -68,9 +65,6 @@ def SimpleHillClimbing():
 SimpleHillClimbing()
 ```
 
-
-
-<hr> 
 <h2>Sample Input and Output</h2>
 <h2>Sample String:</h2> Artificial Intelligence
 <h2>Output:</h2>
