@@ -28,6 +28,7 @@ Feedback is provided in terms of heuristic function
 </ol>
 
 </p>
+
 <hr>
 <h3> Steps Applied:</h3>
 <h3>Step-1</h3>
@@ -40,6 +41,8 @@ Feedback is provided in terms of heuristic function
 <p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
 
 <hr>
+
+ 
 <h2>Sample Input and Output</h2>
 <h2>Sample String:</h2> Artificial Intelligence
 <h2>Output:</h2>
@@ -60,3 +63,6 @@ Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 0  Solution :  Artificial Intelligence<br>
+
+### Result:
+Thus the implementation of simple hill climbing algorithm was done successfully.
