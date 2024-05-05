@@ -30,6 +30,10 @@ Step-2: Mutate the randomized string each character at a time.<BR>
 Step-3: Evaluate the fitness function or Heuristic Function.<BR>
 Step-4: Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.<BR>
 ### Program:
+```
+NAME:DHANUMALYA.D
+REGISTER NUMBER:212222230030
+```
 ```Python
 import random
 import string
